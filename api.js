@@ -6,7 +6,7 @@ const port = 8080;
 
 const key = "@udpraw03";
 
-app.get('/api/attack', (req, res) => {
+app.get('/', (req, res) => {
   try {
     const key = req.query.key;  
     const host = req.query.host;
